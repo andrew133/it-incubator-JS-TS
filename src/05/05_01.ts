@@ -28,8 +28,7 @@ const messages = people.map( man => `Hello ${man.name.split("")[0]}. Welcome to 
 export const greetMessages = (people:Array<MyType>) => {
    return  people.map( man => `Hello ${man.name.split(" ")[0]}. Welcome to IT.`)
 }
-var arr = [];
-for (var i = 0; i < 10; i++) {
-    arr.push(Math.random().toFixed(2));
-}
-console.log(arr);
+// var arr = [];
+// for (var i = 0; i < 10; i++) {
+//     arr.push(Math.random().toFixed(2));
+// }
