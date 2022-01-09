@@ -17,8 +17,9 @@ export const users: UsersType = {
     '1022': {id: 1022, name:'Artem'},
 }
 var user = {id: 100200, name: 'Igor'}
-
 users[user.id] = user
+delete users[user.id]
+users [user.id].name = 'Victor'
 
 export const userArray = [
 {id: 102, name:'Andi'},
@@ -26,3 +27,6 @@ export const userArray = [
 {id: 1012, name:'Sveta'},
 {id: 1022, name:'Artem'},
 ]
+//userArray.find(u => u.id === 1)
+//var usersCopy =[...userArray.filter(), user]
+//var usersArray = userArray.filter(u => u.id !== user.id)
